@@ -17,10 +17,8 @@ export default function Home() {
   });
   return (
     <div className="h-full font-sans flex justify-center items-center">
-      <div className="w-[18rem] aspect-square rounded-2xl bg-[url(/img.jpg)] bg-cover p-2">
-        <div className="relative inset-0">
-          <HamMenu ref={ref} selected={selected} setSelected={setSelected} />
-        </div>
+      <div className="w-[28rem] aspect-square rounded-4xl bg-[url(/img.jpg)] bg-cover p-1 pt-10">
+        <HamMenu ref={ref} selected={selected} setSelected={setSelected} />
       </div>
     </div>
   );
