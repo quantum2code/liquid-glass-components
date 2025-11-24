@@ -1,6 +1,6 @@
-# Motion Bento
+# Liquid Glass Components
 
-A Next.js project demonstrating an interactive, bento-style UI with fluid animations using [Motion](https://motion.dev/).
+A Next.js project demonstrating an interactive, Liquid Glass UI components with fluid animations using [Motion](https://motion.dev/).
 
 ## Features
 
