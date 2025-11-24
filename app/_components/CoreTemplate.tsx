@@ -15,7 +15,7 @@ const OPACITY_TRANSITION = {
 const REVEAL_TRANSITION = {
   initial: {
     ...OPACITY_TRANSITION.initial,
-    scale: "120%",
+    scale: "110%",
   },
   final: {
     ...OPACITY_TRANSITION.final,
@@ -36,7 +36,7 @@ const CoreTemplate = ({
       animate={REVEAL_TRANSITION.final}
       exit={REVEAL_TRANSITION.initial}
       transition={{ duration: 0.5 }}
-      className={className}
+      className={className + ` will-change-transform`}
     >
       {children}
     </motion.div>

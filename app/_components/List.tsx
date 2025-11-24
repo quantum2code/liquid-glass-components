@@ -21,7 +21,9 @@ const List = ({
           onClick={item.onClick}
         >
           {item.icon}
-          <span hidden={!showLable}>{item.name}</span>
+          <span className="text-[18px]" hidden={!showLable}>
+            {item.name}
+          </span>
         </div>
       ))}
     </CoreTemplate>
