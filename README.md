@@ -1,5 +1,6 @@
 # Motion Bento
 
+<<<<<<< HEAD
 A Next.js project demonstrating an interactive, bento-style UI with fluid animations using [Motion](https://motion.dev/).
 
 ## Features
@@ -22,3 +23,6 @@ A Next.js project demonstrating an interactive, bento-style UI with fluid animat
 
 3.  **Open the app**:
     Navigate to [http://localhost:3000](http://localhost:3000).
+=======
+my attempt to replicate the bouncy and morphing UI components of IOS26 Liquid Glass components in React + motion-react
+>>>>>>> 9871edd3bd2a1bc557d72e1e7bd723a28df1d30d
